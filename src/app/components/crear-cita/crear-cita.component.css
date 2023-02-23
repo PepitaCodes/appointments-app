@@ -1,0 +1,13 @@
+label {
+    font-weight: 600;
+}
+.card {
+    margin: 0 40px;
+    opacity: 0.95;
+}
+.btn-primary {
+    background-color: #5693ee;
+    border-color: #5693ee;
+    height: 50px;
+    border-radius: 30px;
+}

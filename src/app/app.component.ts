@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appointments';
+
+  listCitas: any[] = [];
+
+  agregarCita(cita: any): void {
+    this.listCitas.push(cita);
+    console.log(this.listCitas);
+  }
+
+  eliminarCitaListado(index: number): void {
+    this.listCitas.splice(index, 1);
+  }
 }
